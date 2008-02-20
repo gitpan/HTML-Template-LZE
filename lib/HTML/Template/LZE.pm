@@ -7,7 +7,7 @@ use vars qw($tmp $DefaultClass @EXPORT_OK @ISA);
 @ISA                          = qw(Exporter);
 @HTML::Template::LZE::EXPORT  = qw(initTemplate appendHash Template initArray);
 %LZE::TabWidget::EXPORT_TAGS  = ('all' => [qw(initTemplate appendHash Template initArray  )]);
-$HTML::Template::LZE::VERSION = '0.25';
+$HTML::Template::LZE::VERSION = '0.26';
 $DefaultClass                 = 'HTML::Template::LZE' unless defined $HTML::Template::LZE::DefaultClass;
 our %tmplate;
 

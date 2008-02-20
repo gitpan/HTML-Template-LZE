@@ -1,6 +1,6 @@
 ---
 name: HTML-Template-LZE
-version: 0.25
+version: 0.26
 author:
   - 'Dirk Lindner <lze@cpan.orge>'
 abstract: Simple HTML Template
@@ -8,13 +8,13 @@ license: lgpl
 resources:
   license: http://opensource.org/licenses/artistic-license.php
 requires:
-  CGI::LZE: 0.25
+  CGI::LZE: '>=0.25'
   Module::Build: 0
   Test::More: 0
 provides:
   HTML::Template::LZE:
     file: lib/HTML/Template/LZE.pm
-    version: 0.25
+    version: 0.26
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
